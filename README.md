@@ -110,7 +110,8 @@ Configuration Steps:
 	Think Time: We used a 1-second think time to simulate real user behavior.
 After conducting the tests, after surpassing 1500 users, we noticed that the web page no longer accepted more users and exhibited significant signs of slowdown.
 
-
+![image](https://github.com/ermallimaj/functional-and-non-functional-testing-ZKA-webpage/assets/121945435/3300338e-73cb-4fb6-b008-df434d0d38b5)
+                                             Figure 1. JMeter Load Testing Summary Report
 
 4.2.	Stress Testing
 In the stress testing phase using JMeter, our objective was to evaluate the system's performance under varying loads to identify its capacity limits and potential points of failure. Throughout this testing, we systematically increased the number of simulated users to assess how the system responds under stress conditions.
@@ -118,12 +119,15 @@ In the stress testing phase using JMeter, our objective was to evaluate the syst
 Stress Testing Results:
 The system demonstrated robust performance up to a load of 1,500 users, exceeding expectations in terms of response time and transaction success rate. However, as the user load continued to increase, a degradation in system performance was observed, with the system accepting a maximum of only 262 users.
 ![image](https://github.com/ermallimaj/functional-and-non-functional-testing-ZKA-webpage/assets/121945435/03f3c6bf-4966-483a-8ac4-8f2a7e4872aa)
-
+                                             Figure 2. JMeter Stress Testing Result in Table
 4.3.	Accessibility Testing
 We tested the website to see how easy it is for everyone to use. We used a tool called ax DevTools to find any issues in different parts of the site, such as menus and forms. We focused on things like how pictures are described, whether interactive parts are easy to see, and special codes used for certain elements. The aim was to identify areas where the website might need improvement to follow the rules that make websites accessible, ensuring that everyone can use it without any problems.
+![image](https://github.com/ermallimaj/functional-and-non-functional-testing-ZKA-webpage/assets/121945435/e6ad3739-b8d1-46ab-878f-bfe1740ac31a)
+                                             Figure 4. Total issues found with Ax DevTools
 
-
-
+![image](https://github.com/ermallimaj/functional-and-non-functional-testing-ZKA-webpage/assets/121945435/26f26c94-193c-47a8-aa56-3ee78915934f)
+                                             Figure 5. Identified specific issues using Ax DevTools
+                                             
 Contributors:
 1. Agnesa Jashanica
 2. Arijesa Muja
